@@ -5,3 +5,65 @@
 // Add your own code here!
 // Because this file is compiled after Bootstrap, you're also able to use Bootstrap mixins for better code.
 // Some examples can be found here: https://bootscore.me/documentation/bootstrap-css-sass
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#headerText {
+    align-self: flex-start; 
+    background-color: rgba(244, 126, 0, 0.7);
+ 
+    padding: 10px; 
+  }
+
+.buttone{
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  border: solid #fff;
+}
+
+.entry-header{
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 83.3% 90%, 66.6% 80%, 50% 90%, 33.3% 80%, 16.6% 90%, 0 80%);
+}
+
+#orange{
+  background-color: orange;
+  padding: 3rem;
+  color: #fff;
+}
+#orangen{
+  background-color: orange;
+  color: #fff;
+}
+#orangen2{
+  border: solid 2px orange;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.abstandLinksRechts{
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+
+.wpsf-product-img, .wp-post-image{
+  border: solid aliceblue;
+}
+
+.hakon{
+  padding-top: 8rem;
+}

@@ -42,7 +42,7 @@ get_header();
               $the_query = new WP_Query($args);
               if ($the_query->have_posts()) :
                 while ($the_query->have_posts()) : $the_query->the_post(); ?>
-                  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>
 
                     <div class="card horizontal mb-4">
                       <div class="row g-0">

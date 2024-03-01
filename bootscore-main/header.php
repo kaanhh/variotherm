@@ -17,6 +17,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
@@ -29,6 +30,9 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
   <?php wp_head(); ?>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
@@ -88,7 +92,7 @@
           </div>
 
           <div class="header-actions d-flex align-items-center">
-
+            
             <!-- Top Nav Widget -->
             <?php if (is_active_sidebar('top-nav')) : ?>
               <?php dynamic_sidebar('top-nav'); ?>
