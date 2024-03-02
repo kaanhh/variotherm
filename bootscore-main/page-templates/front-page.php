@@ -50,6 +50,7 @@ get_header();
                   </div>
                   <div class="col-sm align-self-center">
                     <?php echo do_shortcode('[einbetten_seite slug="hakon"]'); ?>
+                    <p>Hakan Ertugrul</p>
                   </div>
                 </div>
               </div>
