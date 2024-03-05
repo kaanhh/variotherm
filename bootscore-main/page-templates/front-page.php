@@ -38,14 +38,23 @@ get_header();
         </div>
 
         <section id="orange" class="text-center mt-5 full-width">
-          <h3>Kontaktieren Sie uns jetzt!</h3>  
+        <div class="container">
+          <div class="row">
+            <div class="col text-end d-flex align-items-center justify-content-end">
+            <h3>Kontaktieren Sie uns jetzt!</h3> 
+            </div>
+            <div class="col text-start">
+            <button class="btn btn-lg buttone">JETZT KONTAKTIEREN</button>
+            </div>
+          </div>
+        </div> 
         </section> 
 
         <div class="row mt-5">
             <div class="entry-content">
               <div class="container">
                 <div class="row">
-                  <div class="col-sm pt-5">
+                  <div class="col-sm pt-5 umkreisen">
                     <?php the_content(); ?>
                   </div>
                   <div class="col-sm align-self-center">
@@ -56,10 +65,27 @@ get_header();
               </div>
             </div>
         </div> <!-- Schließt die row mt-5 -->
-      </div> <!-- Schließt bootscore_container_class() pb-5 -->
+
+      </div> 
+
+      <section>
+      <div class="container">
+          <div class="row">
+            <h1>KONTAKT</h1>
+            <div class="col">
+            <h3>Test</h3> 
+            </div>
+            <div class="col">
+            <?php echo do_shortcode('[contact-form-7 id="c1fff6b" title="Kontaktformular 1"]'); ?>
+            </div>
+          </div>
+        </div> 
+      </section>
     </main>
-  </div> <!-- Schließt content-area -->
-</div> <!-- Schließt site-content -->
+  </div> 
+</div> 
+
+
 
 <?php
 get_footer();

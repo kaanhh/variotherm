@@ -113,6 +113,7 @@ function mein_theme_customizer2( $wp_customize ) {
             'Helvetica' => 'Helvetica',
             'Times New Roman' => 'Times New Roman',
             'Roboto' => 'Roboto',
+            'HelveticaNowDisplay' => 'HelveticaNowDisplay',
         ),
     ));
 }
